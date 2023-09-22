@@ -1,0 +1,29 @@
+filters:
+--------
+Integer, the dimensionality of the output space (i.e. the number of output filters in the convolution).
+
+kernel_size: 
+----------
+An integer or tuple/list of 2 integers, specifying the height and width of the 2D convolution window. 
+Can be a single integer to specify the same value for all spatial dimensions.
+
+Padding :
+----------
+In CNNs, padding refers to the process of adding extra pixels to the input image before applying convolution. 
+Acting as a protective boundary around the image, these additional pixels allow the network to retain more 
+spatial information(information having location-based relation with other information). 
+
+There are two main types of padding used in machine learning: 
+same padding, valid padding,with the most generally used being the same padding
+
+"valid" means no padding. 
+"same" results in padding with zeros evenly to the left/right or up/down of the input
+
+Note: When padding="same" and strides=1, the output has the same size as the input.
+
+
+Stride :
+-----------
+Stride denotes how many steps we are moving in each steps in convolution.By default it is one. 
+We can observe that the size of output is smaller that input. To maintain the dimension of 
+output as in input , we use padding. Padding is a process of adding zeros to the input matrix symmetrically
