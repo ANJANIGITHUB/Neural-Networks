@@ -1,0 +1,9 @@
+Cats-Vs-Dog Image Recognition:
+1)
+Data Taken from Kaggle.com
+https://www.kaggle.com/datasets/salader/dogs-vs-cats
+
+2)
+Load the kaggle.json file
+Go to your kaggle profile->Account ->click on 'Create New Token'
+This will download kaggle.json,once downloaded,upload this file to google colab folder where you are working in your notebook.
